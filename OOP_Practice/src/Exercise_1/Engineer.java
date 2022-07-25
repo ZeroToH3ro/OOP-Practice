@@ -22,7 +22,7 @@ public class Engineer extends People{
 
 	@Override
 	public String toString() {
-		return "Engineer: specializedTraining=" + specializedTraining + ", Name = " + getFullName()
+		return "Engineer: specializedTraining = " + specializedTraining + ", Name = " + getFullName()
 				+ ", Age = " + getAge() + ", Sex = " + getSex() + ", Address = " + getAddress();
 	}
 	
