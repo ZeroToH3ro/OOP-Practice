@@ -14,10 +14,12 @@ public class ManageStaff {
 	public void addStaff(People people) {
 		this.listStaff.add(people);
 	}
+	
 	public List<People>searchStaffByName(String name){
 		return this.listStaff.stream().filter(staff->staff.getFullName().contains(name)).collect(Collectors.toList());
 	}
-	public void showInfoStaff() {
+	public void showInfoStaff() {	
 		this.listStaff.forEach(staff->System.out.println(staff.toString()));
-	}
+	} 
 }
+
