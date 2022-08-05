@@ -35,4 +35,5 @@ public class Hotel {
     public void show() {
         this.Peoples.forEach(p -> System.out.println(p.toString()));
     }
+    
 }
