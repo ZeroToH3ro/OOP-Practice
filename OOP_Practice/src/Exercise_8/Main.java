@@ -12,7 +12,6 @@ public class Main {
             // 2 to remove => input id. output boolean
             // 4 get salary => input id. output double
             // 5 exit => return
-
         }
 	}
 }
